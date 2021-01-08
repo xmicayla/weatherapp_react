@@ -1,0 +1,31 @@
+form.search-form {
+  margin: 10px;
+}
+
+h2.city {
+  font-size: 40px;
+}
+
+h4.description {
+  font-size: 20px;
+  font-weight: 300;
+  color: grey;
+}
+
+div.current-time p {
+  float: right;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+div.current-temperature {
+  font-size: 60px;
+  padding: 5px;
+}
+
+div.current-specifications ul {
+  list-style: none;
+  padding: 5px;
+  float: right;
+}
