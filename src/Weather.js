@@ -48,7 +48,7 @@ return (
         </div>
     <div className="row">
        <div className="current-temperature col-6"> 
-            <img src=""/>☁️
+            <img src="" alt=""/>☁️
             <strong>12</strong><span>ºC</span>
             
         </div>
