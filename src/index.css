@@ -16,3 +16,8 @@ div.container {
   position: fixed;
   max-width: 500px;
 }
+
+footer {
+  position: relative;
+  top: 300px;
+}
