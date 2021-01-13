@@ -5,7 +5,7 @@ import Weather from "./Weather.js"
 function App() {
   return (
   <div className="app container card">
-    <Weather />
+    <Weather defaultCity="Vancouver" />
     <footer>
       <a href="https://github.com/xmicayla/weatherapp_react" target="_blank" rel="noreferrer">Open-source code </a>
       <span>by Micayla Johnson</span>

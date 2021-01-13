@@ -28,6 +28,10 @@ div.current-temperature {
   padding: 5px;
 }
 
+div.current-temperature img {
+  margin-right: 5px;
+}
+
 ul.unit li {
   list-style: none;
   display: inline-block;
