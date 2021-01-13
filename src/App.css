@@ -1,0 +1,9 @@
+footer {
+  position: relative;
+  top: 30px;
+}
+
+div.container {
+  position: fixed;
+  max-width: 500px;
+}
