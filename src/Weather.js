@@ -9,8 +9,8 @@ return (
                 <div className="col-5">
                     <input 
                         type="search" 
-                        placeholder="Search for a city.."
-                        autofocus="on"
+                        placeholder="Search for a city"
+                        autoFocus="on"
                         className="form-control"
                     />
                 </div>
@@ -18,14 +18,14 @@ return (
                     <input 
                         value="Search" 
                         type="submit"
-                        className="form-control"
+                        className="form-control btn btn-primary"
                     />
                 </div>   
                 <div className="col-4">
                      <input 
                         value="Current City"
                         type="submit"
-                        className="form-control"
+                        className="form-control btn btn-success"
                     />
                 </div>
             </div>
@@ -47,12 +47,15 @@ return (
             </div> 
         </div>
     <div className="row">
-       <div className="current-temperature col-6"> 
+       <div className="current-temperature col-5"> 
             <img src="" alt=""/>☁️
-            <strong>12</strong><span>ºC</span>
-            
+            <strong>12</strong>º
         </div>
-        <div className="current-specifications col-6">
+        <ul className="unit col-2">
+                <li>ºC  |</li>
+                <li>ºF</li>
+        </ul>
+        <div className="current-specifications col-5">
         <ul>
             <li>
                 Feels like: <span>11</span>ºC

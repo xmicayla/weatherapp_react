@@ -4,7 +4,7 @@ import Weather from "./Weather.js"
 
 function App() {
   return (
-  <div className="container card">
+  <div className="app container card">
     <Weather />
     <footer>
       <a href="https://github.com/xmicayla/weatherapp_react" target="_blank" rel="noreferrer">Open-source code </a>
