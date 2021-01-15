@@ -16,7 +16,7 @@ h4.description {
   color: grey;
 }
 
-div.current-time p {
+div.current-time div {
   float: right;
   font-size: 20px;
   margin-top: 10px;
