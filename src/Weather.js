@@ -8,6 +8,7 @@ const [weatherData, setWeatherData] = useState({ ready : false });
 const [city, setCity] = useState(props.defaultCity);
 
 function handleResponse(response) {
+    console.log(response);
     setWeatherData({
         ready: true,
         date: new Date(response.data.dt * 1000),
@@ -16,10 +17,10 @@ function handleResponse(response) {
         temperature: response.data.main.temp,
         feelsLike: response.data.main.feels_like,
         wind: response.data.wind.speed,
-        humidity: response.data.main.humidity
+        humidity: response.data.main.humidity,
+        iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     });
 }
-
 function handleSubmit(event) {
     event.preventDefault();
     searchCity();
