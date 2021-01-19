@@ -4,7 +4,8 @@ footer {
 }
 
 div.container {
-  position: fixed;
+  width: 80%;
   max-width: 500px;
-  margin: 20px 20px;
+  display: block;
+  margin: 20px auto;
 }
