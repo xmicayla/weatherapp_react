@@ -19,6 +19,11 @@ div.current-time div {
   margin-right: 20px;
 }
 
+.WeatherData canvas {
+  margin: 5px;
+  margin-top: 15px;
+}
+
 span.current-temperature {
   font-size: 50px;
   padding: 5px;
