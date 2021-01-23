@@ -3,7 +3,7 @@
 }
 
 form.search-form {
-  margin: 5px;
+  margin-top: 15px;
 }
 
 p.city {
@@ -63,5 +63,5 @@ div.WeatherForecastPreview {
 }
 
 div.WeatherForeacast canvas {
-  margin: 3px auto;
+  margin: 3px;
 }
