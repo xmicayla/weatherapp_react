@@ -3,7 +3,14 @@
 }
 
 form.search-form {
-  margin: 10px;
+  margin: 5px;
+}
+
+p.city {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
 }
 
 h4.description {
@@ -15,6 +22,7 @@ h4.description {
 div.current-time div {
   float: right;
   font-size: 20px;
+  font-weight: 300;
   margin-top: 10px;
   margin-right: 20px;
 }
@@ -25,7 +33,7 @@ div.current-time div {
 }
 
 span.current-temperature {
-  font-size: 50px;
+  font-size: 45px;
   padding: 5px;
   font-weight: 300;
 }
@@ -43,6 +51,17 @@ div.current-specifications ul {
   float: right;
   padding: 5px;
   position: relative;
-  left: 30px;
+  left: 25px;
   color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+div.WeatherForecastPreview {
+  text-align: center;
+  padding: 5px;
+}
+
+div.WeatherForeacast canvas {
+  margin: 3px auto;
 }

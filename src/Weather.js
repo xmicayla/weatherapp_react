@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Weather.css';
 import WeatherData from './WeatherData.js'
 import axios from "axios";
+import Loader from 'react-loader-spinner'
 
 export default function Weather(props) {
 const [weatherData, setWeatherData] = useState({ ready : false });
@@ -65,15 +66,15 @@ function handleCurrentLocation(event) {
                 </div>
                  <div className="col-3">
                     <input 
-                        value="Search" 
+                        value="Search " 
                         type="submit"
-                        className="form-control btn btn-primary"
+                        className="form-control btn btn-primary btn-sm"
                     />
                 </div>   
                 <div className="col-4">
                      <button
                         type="submit"
-                        className="form-control btn btn-success"
+                        className="form-control btn btn-success btn-sm"
                         onClick={handleCurrentLocation}>
                         Current City
                         </button>
@@ -85,6 +86,14 @@ function handleCurrentLocation(event) {
 );
 } else {
  searchCity();
- return "Loading..."
+ return(
+      <Loader
+         type="TailSpin"
+         color="#0069D9"
+         height={300}
+         width={300}
+         timeout={2000} 
+      />
+     );
 }
 }

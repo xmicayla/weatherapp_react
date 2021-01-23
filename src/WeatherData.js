@@ -9,9 +9,9 @@ export default function WeatherData(props) {
         <div className="WeatherData">
             <div className="row">
             <div className="location col-7">
-                <h2 className="city">
+                <p className="city">
                     <strong>{props.data.city}</strong>
-                </h2> 
+                </p> 
                 <h4 className="description text-capitalize">
                     {props.data.description}
                 </h4>
